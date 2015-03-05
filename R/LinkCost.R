@@ -20,7 +20,7 @@ function(xy1,xy2,i,j)
           linea <-unlist(xy2[l2keya,])
           lineb <-unlist(xy2[l2keyb,])
           
-          linkcost <- DistancePointSegment(pt[1],pt[1],linea[1],linea[2],lineb[1],lineb[2])
+          linkcost <- DistancePointSegment(pt[1],pt[2],linea[1],linea[2],lineb[1],lineb[2])
           
         }else if(even(i)&odd(j))
           {
