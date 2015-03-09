@@ -47,8 +47,8 @@ matrix specifying whether points on one path are 'opposite' points on
   orthogonal line falls.
 }
 \item{costfn}{
-  Specify a cost function to use. By default, Cost.quadratic is used,
-  although Cost.area is also reasonable.  Other cost functions are
+  Specify a cost function to use. By default, Cost.area is used,
+  although Cost.quadratic is also reasonable.  Other cost functions are
   provided but may be sensitive to segmentation.
 }
 }
@@ -63,7 +63,7 @@ returns a floating-point value descibing the area defined by the the two
   \code{connected}.  Otherwise, it will return \code{Inf}.  
 }
 \references{
-See Mueller et al., (under review). \url{https://sites.google.com/a/mtu.edu/mapping/}
+See Mueller et al., (2015). \url{https://sites.google.com/a/mtu.edu/mapping/}
 }
 \author{
 Shane T. Mueller and Brandon Perelman

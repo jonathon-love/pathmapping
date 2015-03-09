@@ -5,11 +5,11 @@
 Create a mapping between paths
 }
 \description{
-Given two paths, this creates a mapping that minimizes the 
+Given two paths, this creates a mapping that minimizes the area between paths.
 }
 \usage{
 CreateMap(xy1.1, xy2.1, plotgrid = F,costfn=Cost.area,
-         nondecreasingos = F, verbose = F, insertopposites = T)
+         nondecreasingos = F, verbose = F, insertopposites = F)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -51,7 +51,7 @@ This finds the minimum-area mapping between two paths.  It also produces
   returns a mapping object
  }
 \references{
-See Mueller et al., (under review). \url{https://sites.google.com/a/mtu.edu/mapping/}
+See Mueller et al., (2015). \url{https://sites.google.com/a/mtu.edu/mapping/}
 }
 \author{
 Shane T. Mueller and Brandon Perelman

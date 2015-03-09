@@ -41,7 +41,7 @@ line segment does not intersect the segment, the function will return an end poi
 a point-pair (x,y)
 }
 \references{
-See Mueller et al., (under review). \url{https://sites.google.com/a/mtu.edu/mapping/}
+See Mueller et al., (2015). \url{https://sites.google.com/a/mtu.edu/mapping/}
 }
 \author{
 Shane T. Mueller and Brandon Perelman

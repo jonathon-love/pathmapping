@@ -28,7 +28,7 @@ A 2-column matrix containing the vertices of a polygon.
 This computes the area of a polygon using the so-called 'surveyor's' formula.  It computes the sum of the determinants of each edge, which results in the area of the polygon, provided the polygon is regular (does not intersect itself, etc.).  If the polygon is not regular, it will not measure the area, because negative areas will be subtracted from positive areas.
 
 The general surveyor's formula is pretty inefficient. We primarily
-(probably exclusively) use it for 2-, 3-, and 4-gons, and so there are
+(probably exclusively) use it for 3-  and 4-gons, and so there are
 special-ppurpose functions defined as \code{surveyors.3} and \code{surveyors.4} that
 are used in these cases that are about 15-20x faster than the general
 one, using the so-called 'shoelace' formula.
@@ -45,7 +45,7 @@ returns a measure of area.
 }
 \references{
 
-See Mueller et al., (under review). \url{https://sites.google.com/a/mtu.edu/mapping/}
+See Mueller et al., (2015). \url{https://sites.google.com/a/mtu.edu/mapping/}
 and
 B. Braden. "The Surveyor's Area Formula". The College Mathematics Journal, vol. 17, no. 4, pp. 326-337, 1986.
 

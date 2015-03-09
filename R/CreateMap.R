@@ -4,7 +4,7 @@ function(xy1.1,xy2.1,
          costfn = Cost.area,
          nondecreasingos=F,
          verbose=F,
-         insertopposites=T)
+         insertopposites=F)
 {
     
     impliedpoints <- InsertIntersections(xy1.1,xy2.1,insertopposites=insertopposites)
@@ -22,12 +22,6 @@ function(xy1.1,xy2.1,
     l2.b <- 2*l2-1 ##size of bigger cost matrix
 
 
-#    dists <- matrix(0,nrow=l1,ncol=l2)
-#    for(i in 1:l1)
-#      for(j in 1:l2)
-#        {
-#          dists[i,j] <-sqrt((xy1[i,1] - xy2[j,1])^2 + (xy1[i,2] - xy2[j,2])^2)
-#        }
     
     ##the lower and upper nodes for each cell of costs:
     l1keya <-c(rep(1:(l1-1),each=2),l1)

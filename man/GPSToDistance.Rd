@@ -17,15 +17,16 @@ convert GPS for local areas, or to adapt a new cost function.
 
 }
 \usage{
-GPSToDistance(longs,lats)
+GPSToDistance(lats,lons)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{lons}{
-A vector of numerical longitude values.
-}
 \item{lats}{
   A vector of numerical latitude values.
+}
+\item{lons}{
+A vector of numerical longitude values.
+}
 }
 \value{
 returns a data frame of  scalar values indicating rectangular coordinates.

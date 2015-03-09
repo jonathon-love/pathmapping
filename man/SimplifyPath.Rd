@@ -34,7 +34,7 @@ Returns a path with redundant points removed.
 }
 
 \references{
-See Mueller et al., (under review). \cr
+See Mueller et al., (2015). \cr
 and\cr
 L. J. Latecki and R. Lakaemper. Convexity Rule for Shape 
 Decomposition Based on Discrete Contour Evolution. Computer Vision

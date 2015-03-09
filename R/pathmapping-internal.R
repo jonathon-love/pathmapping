@@ -134,3 +134,6 @@ function(p,q)
 
      mat
   }
+
+degtorad <-
+    function(deg){deg*pi/180}
